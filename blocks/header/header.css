@@ -38,6 +38,7 @@ header .header.block nav {
        }
     }
   }
+}
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
