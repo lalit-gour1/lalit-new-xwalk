@@ -143,7 +143,7 @@ export default async function decorate(block) {
 
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
-     navSections.querySelectorAll('.button-container, .button').forEach((button) => {
+    navSections.querySelectorAll('.button-container, .button').forEach((button) => {
       button.classList = '';
     });
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
